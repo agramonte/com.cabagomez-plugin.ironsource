@@ -13,16 +13,16 @@ https://dashboard.tappx.com/?h=a386595d4c1005fd21b82c8a44d45766.
             publisherId = "com.cabagomez"
         },
 ```   
-3. Plugin supports Android 16 and above. Add to your build settings file:
+2. Plugin supports Android 16 and above. Add to your build settings file:
 ```
 minSdkVersion = "16",
 ```
-4. Refrence the plugin:
+3. Refrence the plugin:
 ```
 local ironsource = require("plugin.ironsource")
 ```
 
-5. Init. 
+4. Init. 
 ```
 ironsource.init(
     adListerner, -- Listerner. Required.
@@ -41,7 +41,7 @@ ironsource.init(
     )
 ```
 
-6. Show.
+5. Show.
 ```
     ironsource.show("<adtype>", -- Ad type. Valid values are: "interstitial", "rewardedVideo", "banner", "offerWall","consentView"
         {
@@ -51,7 +51,7 @@ ironsource.init(
     )
 ```
 
-7. Is Available.
+6. Is Available.
 ```
     ironsource.isAvailable("<adtype>",
         {
@@ -60,25 +60,25 @@ ironsource.init(
     
     )
 ```  
-8. Hide.
+7. Hide.
 ```
     ironsource.hide() -- Only functions for banner.
 ```
 
-9. Load.
+8. Load.
 ```
    ironsource.load( "<adType>" ) -- Ad type. Valid values are: "interstitial", "banner", "consentView"ß.
    -- Ironsource autoloads rewarded ads and the offerwall.
 ```
 
-10. Set custom properties.   
+9. Set custom properties.   
 ```
 ironsource.setCustomProperty(
     "<keyName>", 
     "<keyValue>"
 )
 ```  
-11. If using:   
+10. If using:   
 AdColony add these schemes (iOS only):   
 ```
     LSApplicationQueriesSchemes = 
@@ -89,7 +89,7 @@ AdColony add these schemes (iOS only):
             "twitter"
     }
 ```     
-12. Logs example:
+11. Logs example:
 
 loaded ("interstitial", "banner")
 ```
