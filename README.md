@@ -6,6 +6,9 @@ Solar2d Ironsource Plugin.
 -- Tappx banner and interstitial are supported. If you use it and have not registered please use my affiliate link:
 https://dashboard.tappx.com/?h=a386595d4c1005fd21b82c8a44d45766.  
 
+-- If you find an issue please submit an issue on this repo. If I am able to reproduce it and impacts me, I will try to resolve it. If you need more support than this or want to individually add plugins, I would recommend the excelent ironsource plugin by Scott Harrison: https://solar2dmarketplace.com/plugins?IronSource_tech-scotth
+
+
 1. Add the plugin.
 ```
     ["plugin.ironsource"] = 
