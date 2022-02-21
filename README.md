@@ -8,7 +8,7 @@ https://dashboard.tappx.com/?h=a386595d4c1005fd21b82c8a44d45766.
 
 1. Add the plugin.
 ```
-    ["plugin_ironsource"] = 
+    ["plugin.ironsource"] = 
         {
             publisherId = "com.cabagomez"
         },
