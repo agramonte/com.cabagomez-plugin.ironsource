@@ -1,7 +1,7 @@
 # com.cabagomez-plugin.ironsource
 Solar2d Ironsource Plugin.
 
--- This is the single plugin version of my Ironsource plugin. It only includes bidding partners for ironsource, admob and tappx (which I use for cross-promotions).
+-- This is the single plugin version of my Ironsource plugin.
 
 -- Tappx banner and interstitial are supported. If you use it and have not registered please use my affiliate link:
 https://dashboard.tappx.com/?h=a386595d4c1005fd21b82c8a44d45766.  
