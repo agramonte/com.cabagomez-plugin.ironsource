@@ -13,38 +13,31 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.ironsource.sdk:mediationsdk:7.2.0' 
+   implementation 'com.ironsource.sdk:mediationsdk:7.2.3.1' 
 
-    // Add AdColony Network
-   implementation 'com.ironsource.adapters:adcolonyadapter:4.3.10'
-   implementation 'com.adcolony:sdk:4.6.5'
-   // Add AdMob and Ad Manager Network
-   implementation 'com.google.android.gms:play-services-ads:20.4.0'
-   implementation 'com.ironsource.adapters:admobadapter:4.3.26'
-   // Add Facebook Network
-   implementation 'com.ironsource.adapters:facebookadapter:4.3.34'
-   implementation 'com.facebook.android:audience-network-sdk:6.8.0'
-   implementation 'com.ironsource.adapters:inmobiadapter:4.3.13' 
-   implementation 'com.inmobi.monetization:inmobi-ads:10.0.1' 
-   implementation 'com.google.android.gms:play-services-location:17.1.0'//optional dependency for better targeting
-   // Add Pangle Network
-   implementation 'com.ironsource.adapters:pangleadapter:4.3.10'
-   implementation 'com.pangle.global:ads-sdk:4.1.1.9'
-   // Add Smaato Network
-   implementation 'com.ironsource.adapters:smaatoadapter:4.3.4'
-   implementation 'com.smaato.android.sdk:smaato-sdk-banner:21.6.6'
-   implementation 'com.smaato.android.sdk:smaato-sdk-in-app-bidding:21.6.6'
-   // Add Tapjoy Network
-   implementation 'com.ironsource.adapters:tapjoyadapter:4.1.19'
-   api 'com.tapjoy:tapjoy-android-sdk:12.8.1@aar'
-   // Add Vungle Network
-   implementation 'com.ironsource.adapters:vungleadapter:4.3.15'
-   implementation 'com.vungle:publisher-sdk-android:6.10.4'
-   // Add Yahoo Network
-   implementation 'com.ironsource.adapters:yahooadapter:4.3.0'
-   implementation 'com.verizon.ads:android-vas-standard-edition:1.14.0'
-   implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
-   implementation 'androidx.browser:browser:1.2.0' 
+   //AdColony
+   implementation 'com.ironsource.adapters:adcolonyadapter:4.3.12'
+   implementation 'com.adcolony:sdk:4.7.1'
+   //AdMob
+   implementation 'com.google.android.gms:play-services-ads:20.6.0'
+   implementation 'com.ironsource.adapters:admobadapter:4.3.28'
+   //Tapjoy
+   implementation 'com.ironsource.adapters:tapjoyadapter:4.1.20'
+   implementation 'com.tapjoy:tapjoy-android-sdk:12.9.1'
+   //Vungle
+   implementation 'com.ironsource.adapters:vungleadapter:4.3.17'
+   implementation 'com.vungle:publisher-sdk-android:6.11.0'
+   //Inmobi
+   implementation 'com.ironsource.adapters:inmobiadapter:4.3.14' 
+   implementation 'com.inmobi.monetization:inmobi-ads:10.0.5' 
+   //Pangle
+   implementation 'com.ironsource.adapters:pangleadapter:4.3.14'
+   implementation 'com.pangle.global:ads-sdk:4.5.0.4'
+   //Chartboost
+   implementation 'com.ironsource.adapters:chartboostadapter:4.3.8'
+   implementation 'com.chartboost:chartboost-sdk:8.3.1'
+
    //Tappx
    implementation 'com.tappx.sdk.android:tappx-sdk:3.+'
+
 }
