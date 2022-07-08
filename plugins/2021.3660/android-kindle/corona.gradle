@@ -36,6 +36,9 @@ dependencies {
    //Chartboost
    implementation 'com.ironsource.adapters:chartboostadapter:4.3.8'
    implementation 'com.chartboost:chartboost-sdk:8.3.1'
+   // Add Facebook Network
+   implementation 'com.ironsource.adapters:facebookadapter:4.3.36'
+   implementation 'com.facebook.android:audience-network-sdk:6.11.0'
 
    //Tappx
    implementation 'com.tappx.sdk.android:tappx-sdk:3.+'

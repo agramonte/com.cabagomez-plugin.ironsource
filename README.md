@@ -223,6 +223,36 @@ SDK Version - 6.11.0
 --------------- Tappx --------------    
 Adapter 3.2.4   
 
+Current versions for Amazon   
+--------------- AdColony --------------  
+Adapter 4.3.12   
+--------------- Chartboost --------------    
+Adapter 4.3.8    
+SDK Version - 8.3.1  
+--------------- Google (AdMob and Ad Manager) --------------   
+Adapter 4.3.28    
+SDK Version - 20.6.0    
+--------------- InMobi --------------   
+Adapter 4.3.14   
+SDK Version - 10.0.5    
+--------------- IronSource --------------   
+Adapter 7.2.3.1  
+SDK Version - 5.116  
+--------------- Meta --------------   
+Adapter 4.3.36   
+SDK Version - 6.11.0   
+--------------- Pangle --------------    
+Adapter 4.3.14       
+SDK Version - 4.5.0.4     
+--------------- Tapjoy --------------    
+Adapter 4.1.20    
+SDK Version - 12.9.1     
+--------------- Vungle --------------   
+Adapter 4.3.17   
+SDK Version - 6.11.0   
+--------------- Tappx --------------    
+Adapter 3.2.4   
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
