@@ -251,7 +251,33 @@ SDK Version - 12.9.1
 Adapter 4.3.17   
 SDK Version - 6.11.0   
 --------------- Tappx --------------    
-Adapter 3.2.4   
+Adapter 3.2.4  
+
+Current version for iOS
+--------------- AdColony --------------   
+SDK - Version 4.8.0.0   
+Adapter - Version 4.3.13   
+--------------- AppLovin --------------
+SDK - Version 11.4.2   
+Adapter - Version 4.3.31   
+--------------- Google (AdMob and Ad Manager) --------------   
+SDK - Version afma-sdk-i-v9.5.0   
+Adapter - Version 4.3.32   
+--------------- IronSource --------------   
+SDK - Version 5.102   
+Adapter - Version 7.2.2   
+--------------- Meta --------------   
+SDK - Version 6.11.0   
+Adapter - Version 4.3.35   
+--------------- Tapjoy --------------   
+SDK - Version 12.9.1   
+Adapter - Version 4.1.19   
+--------------- UnityAds --------------   
+SDK - Version 4.2.1   
+Adapter - Version 4.3.22   
+--------------- Vungle --------------   
+SDK - Version 6.11.0   
+Adapter - Version 4.3.20  
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
