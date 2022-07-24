@@ -42,9 +42,9 @@ local metadata =
 			-- Unity
 			'ISUnityAdsAdapter',
 			'UnityAds',
-			-- Vungle
-			'ISVungleAdapter',
-			'VungleSDK',
+			-- Chartboost
+			'ISChartboostAdapter',
+			'Chartboost',
 			-- Other libraries
 			"AdSupport",
 			"AudioToolbox",
@@ -62,6 +62,7 @@ local metadata =
 			"StoreKit",
 			"SystemConfiguration"
 		},
+		usesSwift = true
 	},
 }
 

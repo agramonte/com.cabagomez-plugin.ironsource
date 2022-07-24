@@ -64,6 +64,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)clearAdsInSections:(NSIndexSet *)sections;
 
 /**
+ * Clears ads placed after the specified index path in its corresponding section.
+ *
+ * @return An array of cleared ad index paths.
+ */
+- (NSArray<NSIndexPath *> *)clearAdsInSectionAfterIndexPath:(NSIndexPath *)indexPath;
+
+/**
  * Whether an index path represents an ad position.
  */
 - (BOOL)isAdIndexPath:(NSIndexPath *)indexPath;

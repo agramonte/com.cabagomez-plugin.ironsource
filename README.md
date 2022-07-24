@@ -195,7 +195,135 @@ ironsource:	{
       "type":"segment",
       "isError":false
     }   
-```   
+```  
+
+12. Please add these values to your build settings or your own values. These values come directly from Ironsource tool use at your own risk.
+```
+SKAdNetworkItems = {  
+                { SKAdNetworkIdentifier = "su67r6k2v3.skadnetwork" },
+                { SKAdNetworkIdentifier = "f7s53z58qe.skadnetwork" },
+                { SKAdNetworkIdentifier = "2u9pt9hc89.skadnetwork" },
+                { SKAdNetworkIdentifier = "hs6bdukanm.skadnetwork" },
+                { SKAdNetworkIdentifier = "8s468mfl3y.skadnetwork" },
+                { SKAdNetworkIdentifier = "c6k4g5qg8m.skadnetwork" },
+                { SKAdNetworkIdentifier = "v72qych5uu.skadnetwork" },
+                { SKAdNetworkIdentifier = "44jx6755aq.skadnetwork" },
+                { SKAdNetworkIdentifier = "prcb7njmu6.skadnetwork" },
+                { SKAdNetworkIdentifier = "m8dbw4sv7c.skadnetwork" },
+                { SKAdNetworkIdentifier = "3rd42ekr43.skadnetwork" },
+                { SKAdNetworkIdentifier = "4fzdc2evr5.skadnetwork" },
+                { SKAdNetworkIdentifier = "t38b2kh725.skadnetwork" },
+                { SKAdNetworkIdentifier = "f38h382jlk.skadnetwork" },
+                { SKAdNetworkIdentifier = "424m5254lk.skadnetwork" },
+                { SKAdNetworkIdentifier = "ppxm28t8ap.skadnetwork" },
+                { SKAdNetworkIdentifier = "av6w8kgt66.skadnetwork" },
+                { SKAdNetworkIdentifier = "cp8zw746q7.skadnetwork" },
+                { SKAdNetworkIdentifier = "4468km3ulz.skadnetwork" },
+                { SKAdNetworkIdentifier = "e5fvkxwrpn.skadnetwork" },
+                { SKAdNetworkIdentifier = "4pfyvq9l8r.skadnetwork" },
+                { SKAdNetworkIdentifier = "yclnxrl5pm.skadnetwork" },
+                { SKAdNetworkIdentifier = "tl55sbb4fm.skadnetwork" },
+                { SKAdNetworkIdentifier = "mlmmfzh3r3.skadnetwork" },
+                { SKAdNetworkIdentifier = "klf5c3l5u5.skadnetwork" },
+                { SKAdNetworkIdentifier = "9t245vhmpl.skadnetwork" },
+                { SKAdNetworkIdentifier = "9rd848q2bz.skadnetwork" },
+                { SKAdNetworkIdentifier = "7ug5zh24hu.skadnetwork" },
+                { SKAdNetworkIdentifier = "7rz58n8ntl.skadnetwork" },
+                { SKAdNetworkIdentifier = "ejvt5qm6ak.skadnetwork" },
+                { SKAdNetworkIdentifier = "5lm9lj6jb7.skadnetwork" },
+                { SKAdNetworkIdentifier = "mtkv5xtk9e.skadnetwork" },
+                { SKAdNetworkIdentifier = "6g9af3uyq4.skadnetwork" },
+                { SKAdNetworkIdentifier = "uw77j35x4d.skadnetwork" },
+                { SKAdNetworkIdentifier = "u679fj5vs4.skadnetwork" },
+                { SKAdNetworkIdentifier = "rx5hdcabgc.skadnetwork" },
+                { SKAdNetworkIdentifier = "g28c52eehv.skadnetwork" },
+                { SKAdNetworkIdentifier = "cg4yq2srnc.skadnetwork" },
+                { SKAdNetworkIdentifier = "9nlqeag3gk.skadnetwork" },
+                { SKAdNetworkIdentifier = "275upjj5gd.skadnetwork" },
+                { SKAdNetworkIdentifier = "wg4vff78zm.skadnetwork" },
+                { SKAdNetworkIdentifier = "qqp299437r.skadnetwork" },
+                { SKAdNetworkIdentifier = "2fnua5tdw4.skadnetwork" },
+                { SKAdNetworkIdentifier = "3qcr597p9d.skadnetwork" },
+                { SKAdNetworkIdentifier = "3qy4746246.skadnetwork" },
+                { SKAdNetworkIdentifier = "3sh42y64q3.skadnetwork" },
+                { SKAdNetworkIdentifier = "5a6flpkh64.skadnetwork" },
+                { SKAdNetworkIdentifier = "cstr6suwn9.skadnetwork" },
+                { SKAdNetworkIdentifier = "kbd757ywx3.skadnetwork" },
+                { SKAdNetworkIdentifier = "n6fk4nfna4.skadnetwork" },
+                { SKAdNetworkIdentifier = "p78axxw29g.skadnetwork" },
+                { SKAdNetworkIdentifier = "s39g8k73mm.skadnetwork" },
+                { SKAdNetworkIdentifier = "wzmmz9fp6w.skadnetwork" },
+                { SKAdNetworkIdentifier = "ydx93a7ass.skadnetwork" },
+                { SKAdNetworkIdentifier = "zq492l623r.skadnetwork" },
+                { SKAdNetworkIdentifier = "24t9a8vw3c.skadnetwork" },
+                { SKAdNetworkIdentifier = "32z4fx6l9h.skadnetwork" },
+                { SKAdNetworkIdentifier = "523jb4fst2.skadnetwork" },
+                { SKAdNetworkIdentifier = "54nzkqm89y.skadnetwork" },
+                { SKAdNetworkIdentifier = "578prtvx9j.skadnetwork" },
+                { SKAdNetworkIdentifier = "5l3tpt7t6e.skadnetwork" },
+                { SKAdNetworkIdentifier = "6xzpu9s2p8.skadnetwork" },
+                { SKAdNetworkIdentifier = "79pbpufp6p.skadnetwork" },
+                { SKAdNetworkIdentifier = "9b89h5y424.skadnetwork" },
+                { SKAdNetworkIdentifier = "cj5566h2ga.skadnetwork" },
+                { SKAdNetworkIdentifier = "feyaarzu9v.skadnetwork" },
+                { SKAdNetworkIdentifier = "ggvn48r87g.skadnetwork" },
+                { SKAdNetworkIdentifier = "glqzh8vgby.skadnetwork" },
+                { SKAdNetworkIdentifier = "gta9lk7p23.skadnetwork" },
+                { SKAdNetworkIdentifier = "k674qkevps.skadnetwork" },
+                { SKAdNetworkIdentifier = "ludvb6z3bs.skadnetwork" },
+                { SKAdNetworkIdentifier = "n9x2a789qt.skadnetwork" },
+                { SKAdNetworkIdentifier = "pwa73g5rt2.skadnetwork" },
+                { SKAdNetworkIdentifier = "xy9t38ct57.skadnetwork" },
+                { SKAdNetworkIdentifier = "zmvfpc5aq8.skadnetwork" },
+                { SKAdNetworkIdentifier = "22mmun2rn5.skadnetwork" },
+                { SKAdNetworkIdentifier = "294l99pt4k.skadnetwork" },
+                { SKAdNetworkIdentifier = "44n7hlldy6.skadnetwork" },
+                { SKAdNetworkIdentifier = "4dzt52r2t5.skadnetwork" },
+                { SKAdNetworkIdentifier = "4w7y6s5ca2.skadnetwork" },
+                { SKAdNetworkIdentifier = "5tjdwbrq8w.skadnetwork" },
+                { SKAdNetworkIdentifier = "6964rsfnh4.skadnetwork" },
+                { SKAdNetworkIdentifier = "6p4ks3rnbw.skadnetwork" },
+                { SKAdNetworkIdentifier = "737z793b9f.skadnetwork" },
+                { SKAdNetworkIdentifier = "74b6s63p6l.skadnetwork" },
+                { SKAdNetworkIdentifier = "84993kbrcf.skadnetwork" },
+                { SKAdNetworkIdentifier = "97r2b46745.skadnetwork" },
+                { SKAdNetworkIdentifier = "a7xqa6mtl2.skadnetwork" },
+                { SKAdNetworkIdentifier = "b9bk5wbcq9.skadnetwork" },
+                { SKAdNetworkIdentifier = "bxvub5ada5.skadnetwork" },
+                { SKAdNetworkIdentifier = "dzg6xy7pwj.skadnetwork" },
+                { SKAdNetworkIdentifier = "f73kdq92p3.skadnetwork" },
+                { SKAdNetworkIdentifier = "g2y4y55b64.skadnetwork" },
+                { SKAdNetworkIdentifier = "hdw39hrw9y.skadnetwork" },
+                { SKAdNetworkIdentifier = "kbmxgpxpgc.skadnetwork" },
+                { SKAdNetworkIdentifier = "lr83yxwka7.skadnetwork" },
+                { SKAdNetworkIdentifier = "mls7yz5dvl.skadnetwork" },
+                { SKAdNetworkIdentifier = "mp6xlyr22a.skadnetwork" },
+                { SKAdNetworkIdentifier = "pwdxu55a5a.skadnetwork" },
+                { SKAdNetworkIdentifier = "r45fhb6rf7.skadnetwork" },
+                { SKAdNetworkIdentifier = "rvh3l7un93.skadnetwork" },
+                { SKAdNetworkIdentifier = "s69wq72ugq.skadnetwork" },
+                { SKAdNetworkIdentifier = "w9q455wk68.skadnetwork" },
+                { SKAdNetworkIdentifier = "x44k69ngh6.skadnetwork" },
+                { SKAdNetworkIdentifier = "x8uqf25wch.skadnetwork" },
+                { SKAdNetworkIdentifier = "y45688jllp.skadnetwork" },
+                { SKAdNetworkIdentifier = "v9wttpbfk9.skadnetwork" },
+                { SKAdNetworkIdentifier = "n38lu8286q.skadnetwork" },
+                { SKAdNetworkIdentifier = "238da6jt44.skadnetwork" },
+                { SKAdNetworkIdentifier = "252b5q8x7y.skadnetwork" },
+                { SKAdNetworkIdentifier = "488r3q3dtq.skadnetwork" },
+                { SKAdNetworkIdentifier = "52fl2v3hgk.skadnetwork" },
+                { SKAdNetworkIdentifier = "9yg77x724h.skadnetwork" },
+                { SKAdNetworkIdentifier = "ecpz2srf59.skadnetwork" },
+                { SKAdNetworkIdentifier = "gvmwg8q7h5.skadnetwork" },
+                { SKAdNetworkIdentifier = "n66cz3y3bx.skadnetwork" },
+                { SKAdNetworkIdentifier = "nzq8sh4pbs.skadnetwork" },
+                { SKAdNetworkIdentifier = "pu4na253f3.skadnetwork" },
+                { SKAdNetworkIdentifier = "v79kvwwj4g.skadnetwork" },
+                { SKAdNetworkIdentifier = "yrqqpx2mcb.skadnetwork" },
+                { SKAdNetworkIdentifier = "z4gj7hsk7h.skadnetwork" },
+                { SKAdNetworkIdentifier = "7953jerfzd.skadnetwork" }
+            },
+```
 
 Current versions for android
 --------------- AdColony --------------  
@@ -258,17 +386,17 @@ Current version for iOS
 SDK - Version 4.8.0.0   
 Adapter - Version 4.3.13   
 --------------- AppLovin --------------
-SDK - Version 11.4.2   
-Adapter - Version 4.3.31   
+SDK - Version 11.4.3   
+Adapter - Version 4.3.33   
 --------------- Google (AdMob and Ad Manager) --------------   
-SDK - Version afma-sdk-i-v9.5.0   
-Adapter - Version 4.3.32   
+SDK - Version afma-sdk-i-v9.7.0   
+Adapter - Version 4.3.33   
 --------------- IronSource --------------   
-SDK - Version 5.102   
-Adapter - Version 7.2.2   
+SDK - Version 5.103  
+Adapter - Version 7.2.3.1   
 --------------- Meta --------------   
-SDK - Version 6.11.0   
-Adapter - Version 4.3.35   
+SDK - Version 6.11.1   
+Adapter - Version 4.3.36   
 --------------- Tapjoy --------------   
 SDK - Version 12.9.1   
 Adapter - Version 4.1.19   
