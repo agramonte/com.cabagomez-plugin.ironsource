@@ -19,20 +19,23 @@ dependencies {
    implementation 'com.ironsource.adapters:adcolonyadapter:4.3.12'
    implementation 'com.adcolony:sdk:4.7.1'
    //AdMob
-   implementation 'com.google.android.gms:play-services-ads:20.6.0'
+   implementation 'com.google.android.gms:play-services-ads:20.4.0'
    implementation 'com.ironsource.adapters:admobadapter:4.3.28'
+
+   constraints {
+    implementation('androidx.work:work-runtime:2.7.0') {
+      because '''androidx.work:work-runtime:2.1.0 pulled from
+      play-services-ads has a bug using PendingIntent without
+      FLAG_IMMUTABLE or FLAG_MUTABLE and will fail in Apps
+      targeting S+.'''
+    }
+   //implementation 'androidx.work:work-runtime:2.7.0'
    //Tapjoy
    implementation 'com.ironsource.adapters:tapjoyadapter:4.1.20'
    implementation 'com.tapjoy:tapjoy-android-sdk:12.9.1'
    //Vungle
    implementation 'com.ironsource.adapters:vungleadapter:4.3.17'
    implementation 'com.vungle:publisher-sdk-android:6.11.0'
-   //Inmobi
-   implementation 'com.ironsource.adapters:inmobiadapter:4.3.14' 
-   implementation 'com.inmobi.monetization:inmobi-ads:10.0.5' 
-   //Pangle
-   implementation 'com.ironsource.adapters:pangleadapter:4.3.14'
-   implementation 'com.pangle.global:ads-sdk:4.5.0.4'
    //Chartboost
    implementation 'com.ironsource.adapters:chartboostadapter:4.3.8'
    implementation 'com.chartboost:chartboost-sdk:8.3.1'
