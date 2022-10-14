@@ -66,7 +66,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly, nullable) NSString *adReviewCreativeIdentifier;
 
 /**
- * The ad’s revenue amount, or 0 if no revenue amount exists.
+ * The ad’s revenue amount. In the case where no revenue amount exists, or it is not available yet, will return a value of 0.
  */
 @property (nonatomic, assign, readonly) double revenue;
 

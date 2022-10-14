@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AppLovinSDK/MAAdViewAdapter.h>
 #import <AppLovinSDK/MAInterstitialAdapter.h>
+#import <AppLovinSDK/MAAppOpenAdapter.h>
 #import <AppLovinSDK/MARewardedAdapter.h>
 #import <AppLovinSDK/MARewardedInterstitialAdapter.h>
 #import <AppLovinSDK/MANativeAdAdapter.h>

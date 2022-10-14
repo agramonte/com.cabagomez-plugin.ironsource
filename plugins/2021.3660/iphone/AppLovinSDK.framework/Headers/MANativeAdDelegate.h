@@ -48,6 +48,17 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)didClickNativeAd:(MAAd *)ad;
 
+@optional
+
+/**
+ * The SDK invokes this method when the native ad expires.
+ *
+ * The SDK invokes this method on the main UI thread.
+ *
+ * @param ad  The ad that expired.
+ */
+- (void)didExpireNativeAd:(MAAd *)ad;
+
 @end
 
 NS_ASSUME_NONNULL_END

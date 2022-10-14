@@ -41,7 +41,6 @@
  Called after a rewarded video has been clicked.
  @param placementInfo An object that contains the placement's reward name and amount.
  @param adInfo The info of the ad.
-
  */
 - (void)didClick:(ISPlacementInfo *)placementInfo withAdInfo:(ISAdInfo *)adInfo;
 

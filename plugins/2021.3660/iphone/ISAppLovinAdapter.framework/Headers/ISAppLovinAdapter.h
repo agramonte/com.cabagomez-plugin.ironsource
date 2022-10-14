@@ -1,13 +1,15 @@
 //
-//  Copyright (c) 2015 IronSource. All rights reserved.
+//  ISAppLovinAdapter.h
+//  ISAppLovinAdapter
+//
+//  Copyright © 2022 IronSource. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "IronSource/ISBaseAdapter+Internal.h"
-#import "IronSource/ISMetaData.h"
 
-static NSString * const AppLovinAdapterVersion = @"4.3.33";
-static NSString * GitHash = @"2dc5deb5a";
+static NSString * const AppLovinAdapterVersion = @"4.3.35";
+static NSString * GitHash = @"1f2ec838a";
 
 //System Frameworks For AppLovin Adapter
 @import AdSupport;

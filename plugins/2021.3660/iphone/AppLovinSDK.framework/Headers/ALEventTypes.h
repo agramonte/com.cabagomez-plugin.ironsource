@@ -283,7 +283,7 @@ extern NSString *const kALEventParameterCheckoutTransactionIdentifierKey;
  * The dictionary key for @code -[ALEventService trackEvent:parameters:] @endcode that represents the StoreKit transaction ID associated with the revenue keys.
  * Expects a corresponding value of type @c NSString.
  *
- * This identifier should match the value of @code [SKPaymentTransaction transactionIdentifier] @endcode.
+ * This identifier should match the value of @code -[SKPaymentTransaction transactionIdentifier] @endcode.
  */
 extern NSString *const kALEventParameterStoreKitTransactionIdentifierKey;
 

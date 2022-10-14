@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - Ads
 
 /**
- * Load MAX native ads for stream. Set @code [MAAdPlacer delegate] @endcode to assign a delegate that should be notified about ad load state.
+ * Load MAX native ads for stream. Set @code -[MAAdPlacer delegate] @endcode to assign a delegate that should be notified about ad load state.
  */
 - (void)loadAds;
 

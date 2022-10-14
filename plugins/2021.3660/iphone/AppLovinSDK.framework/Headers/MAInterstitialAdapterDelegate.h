@@ -55,7 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * This method should be called when the user has clicked adapter's ad.
  */
--(void)didClickInterstitialAdWithExtraInfo:(nullable NSDictionary<NSString *, id> *)extraInfo;
+- (void)didClickInterstitialAdWithExtraInfo:(nullable NSDictionary<NSString *, id> *)extraInfo;
 
 /**
  * This method should be called when adapter's ad has been dismissed.
@@ -65,7 +65,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * This method should be called when adapter's ad has been dismissed.
  */
--(void)didHideInterstitialAdWithExtraInfo:(nullable NSDictionary<NSString *, id> *)extraInfo;
+- (void)didHideInterstitialAdWithExtraInfo:(nullable NSDictionary<NSString *, id> *)extraInfo;
 
 /**
  * This method is should be called when an ad could not be displayed.

@@ -37,6 +37,17 @@ NS_ASSUME_NONNULL_BEGIN
         forPlacementIdentifier:(NSString *)placementIdentifier;
 
 /**
+ * Mediation adapters should call this when loading an app open ad.
+ *
+ * @param adapter             Mediation adapter responsible for the mediated ad request.
+ * @param delegate            Delegate that is listening to the mediation adapter events.
+ * @param placementIdentifier Placement identifier requested for the ad load.
+ */
+- (void)addAppOpenAdapter:(id<MAAdapter>)adapter
+                 delegate:(id<MAAppOpenAdapterDelegate>)delegate
+   forPlacementIdentifier:(NSString *)placementIdentifier;
+
+/**
  * Mediation adapters should call this when loading a rewarded ad.
  *
  * @param adapter             Mediation adapter responsible for the mediated ad request.

@@ -53,8 +53,8 @@ NS_ASSUME_NONNULL_BEGIN
 #define IS_OFFERWALL @"offerwall"
 #define IS_BANNER @"banner"
 
-static NSString * const MEDIATION_SDK_VERSION     = @"7.2.3.1";
-static NSString * GitHash = @"b8f6ec321";
+static NSString * const MEDIATION_SDK_VERSION     = @"7.2.5";
+static NSString * GitHash = @"832ab04cd";
 
 /*
     This constant is for sending an external impression data from mopub
@@ -104,7 +104,7 @@ static NSString * const DataSource_MOPUB     = @"MoPub";
 
 /**
  @abstract Retrieves the device's current advertising identifier.
- @discussion Will first try to retrive IDFA, if impossible, will try to retrive IDFV.
+ @discussion Will first try to retrieve IDFA, if impossible, will try to retrieve IDFV.
  
  @return The device's current advertising identifier.
  */
@@ -294,7 +294,7 @@ static NSString * const DataSource_MOPUB     = @"MoPub";
 + (BOOL)isRewardedVideoCappedForPlacement:(NSString *)placementName;
 
 /**
- @abstract Retrive an object containing the placement's reward name and amount.
+ @abstract Retrieve an object containing the placement's reward name and amount.
 
  @param placementName The placement name as was defined in the platform.
  @return ISPlacementInfo representing the placement's information.
@@ -494,7 +494,7 @@ static NSString * const DataSource_MOPUB     = @"MoPub";
 + (void)showOfferwallWithViewController:(UIViewController *)viewController placement:(nullable NSString *)placementName;
 
 /**
- @abstract Retrive information on the user’s total credits and any new credits the user has earned.
+ @abstract Retrieve information on the user’s total credits and any new credits the user has earned.
  @discussion The function can be called at any point during the user’s engagement with the app.
  */
 + (void)offerwallCredits;
@@ -580,12 +580,32 @@ static NSString * const DataSource_MOPUB     = @"MoPub";
 /**
  @abstract Loads a demand only Banner for a bidder instance.
  @discussion This method will load a demand only Banner ad for a bidder instance.
+ @param adm The ad markup
  @param instanceId The demand only instance id to be used to display the Banner.
+ @param viewController The view controller on which the banner should be presented
+ @param size The required banner ad size
+ */
++ (void)loadISDemandOnlyBannerWithAdm:(NSString *)adm
+                           instanceId:(NSString *)instanceId
+                       viewController:(UIViewController *)viewController
+                                 size:(ISBannerSize *)size;
+
+/**
+ @abstract Loads a demand only Banner for a non bidder instance.
+ @discussion This method will load a demand only Banner ad for a non bidder instance.
+ @param instanceId The demand only instance id to be used to display the Banner.
+ @param viewController The view controller on which the banner should be presented
+ @param size The required banner ad size
  */
 + (void)loadISDemandOnlyBannerWithInstanceId:(NSString *)instanceId
-                                         adm:(nullable NSString *)adm
                               viewController:(UIViewController *)viewController
                                         size:(ISBannerSize *)size;
+
+/**
+ @abstract Removes the banner from memory.
+ @param instanceId The demand only instance id of the Banner that should be destroyed.
+ */
++ (void)destroyISDemandOnlyBannerWithInstanceId:(NSString *)instanceId;
 
 #pragma mark - Logging
 

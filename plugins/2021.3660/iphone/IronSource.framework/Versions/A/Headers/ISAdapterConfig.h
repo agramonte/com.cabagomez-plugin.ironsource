@@ -34,7 +34,8 @@
 @property (strong, nonatomic, readonly) NSDictionary  *appSettings;
 @property (strong, nonatomic, readonly) NSDictionary  *interstitialSettings;
 @property (strong, nonatomic, readonly) NSDictionary  *rewardedVideoSettings;
-@property (strong, nonatomic, readonly) NSDictionary  *bannerSettings;
+//The banner settings contains the provider configs which may be changed with the banner configuration during the flow, so it's not defined as readonly.
+@property (strong, nonatomic)           NSDictionary  *bannerSettings;
 
 @property (strong, nonatomic, readonly) NSString      *providerDefaultInstance; /* Name of Adapter class to load (fallback to reflectionName) */
 @property (strong, nonatomic, readonly) NSString      *customNetwork; /* name of the custom network is exists */

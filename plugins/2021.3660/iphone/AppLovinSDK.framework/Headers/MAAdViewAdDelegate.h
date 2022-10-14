@@ -8,7 +8,6 @@
 
 #import <AppLovinSDK/MAAd.h>
 #import <AppLovinSDK/MAAdDelegate.h>
-#import <AppLovinSDK/MAAdRevenueDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

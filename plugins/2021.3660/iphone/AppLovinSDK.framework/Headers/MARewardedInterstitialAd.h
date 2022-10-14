@@ -5,6 +5,7 @@
 //  Created by Thomas So on 6/3/20.
 //
 
+#import <AppLovinSDK/MAAdRequestDelegate.h>
 #import <AppLovinSDK/MAAdRevenueDelegate.h>
 #import <AppLovinSDK/MAAdReviewDelegate.h>
 
@@ -44,12 +45,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<MAAdRevenueDelegate> revenueDelegate;
 
 /**
+ * A delegate that will be notified about ad request events.
+ */
+@property (nonatomic, weak, nullable) id<MAAdRequestDelegate> requestDelegate;
+
+/**
  * A delegate that will be notified about Ad Review events.
  */
 @property (nonatomic, weak, nullable) id<MAAdReviewDelegate> adReviewDelegate;
 
 /**
- * Load the current rewarded interstitial. Set @code [MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about ad load
+ * Load the current rewarded interstitial. Set @code -[MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about ad load
  * state.
  */
 - (void)loadAd;
@@ -57,8 +63,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Show the loaded rewarded interstitial ad.
  * <ul>
- * <li>Use @code [MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
- * <li>Use @code [MARewardedInterstitialAd ready] @endcode to check if an ad was successfully loaded.</li>
+ * <li>Use @code -[MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
+ * <li>Use @code -[MARewardedInterstitialAd ready] @endcode to check if an ad was successfully loaded.</li>
  * </ul>
  */
 - (void)showAd;
@@ -66,8 +72,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Show the loaded rewarded interstitial ad for a given placement to tie ad events to.
  * <ul>
- * <li>Use @code [MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
- * <li>Use @code [MARewardedInterstitialAd ready] @endcode to check if an ad was successfully loaded.</li>
+ * <li>Use @code -[MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
+ * <li>Use @code -[MARewardedInterstitialAd ready] @endcode to check if an ad was successfully loaded.</li>
  * </ul>
  *
  * @param placement The placement to tie the showing ad’s events to.
@@ -77,8 +83,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Show the loaded rewarded interstitial ad for a given placement and custom data to tie ad events to.
  * <ul>
- * <li>Use @code [MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
- * <li>Use @code [MARewardedInterstitialAd ready] @endcode to check if an ad was successfully loaded.</li>
+ * <li>Use @code -[MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
+ * <li>Use @code -[MARewardedInterstitialAd ready] @endcode to check if an ad was successfully loaded.</li>
  * </ul>
  *
  * @param placement The placement to tie the showing ad’s events to.
@@ -89,8 +95,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Show the loaded rewarded interstitial ad for a given placement and custom data to tie ad events to, and a view controller to present the ad from..
  * <ul>
- * <li>Use @code [MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
- * <li>Use @code [MARewardedInterstitialAd ready] @endcode to check if an ad was successfully loaded.</li>
+ * <li>Use @code -[MARewardedInterstitialAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
+ * <li>Use @code -[MARewardedInterstitialAd ready] @endcode to check if an ad was successfully loaded.</li>
  * </ul>
  *
  * @param placement The placement to tie the showing ad’s events to.

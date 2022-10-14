@@ -25,13 +25,13 @@ NS_ASSUME_NONNULL_BEGIN
  * An object that conforms to the @c ALAdDisplayDelegate protocol. If you provide a value for @c adDisplayDelegate in your instance, the SDK will
  * notify this delegate of ad show/hide events.
  */
-@property (strong, nonatomic, nullable) id<ALAdDisplayDelegate> adDisplayDelegate;
+@property (nonatomic, strong, nullable) id<ALAdDisplayDelegate> adDisplayDelegate;
 
 /**
  * An object that conforms to the @c ALAdVideoPlaybackDelegate protocol. If you provide a value for @c adVideoPlaybackDelegate in your instance,
  * the SDK will notify this delegate of video start/stop events.
  */
-@property (strong, nonatomic, nullable) id<ALAdVideoPlaybackDelegate> adVideoPlaybackDelegate;
+@property (nonatomic, strong, nullable) id<ALAdVideoPlaybackDelegate> adVideoPlaybackDelegate;
 
 #pragma mark - Integration, Class Methods
 
@@ -130,7 +130,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  The zone identifier this incentivized ad was initialized with and is loading ads for, if any.
  */
-@property (copy, nonatomic, readonly, nullable) NSString *zoneIdentifier;
+@property (nonatomic, copy, readonly, nullable) NSString *zoneIdentifier;
 
 /**
  * Pre-loads an incentivized interstitial, and notifies your provided Ad Load Delegate.
@@ -160,7 +160,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @return @c YES if an ad has been loaded into this incentivized interstitial and is ready to display. @c NO otherwise.
  */
-@property (readonly, atomic, getter=isReadyForDisplay) BOOL readyForDisplay;
+@property (atomic, readonly, getter=isReadyForDisplay) BOOL readyForDisplay;
 
 /**
  * Shows an incentivized interstitial over the current key window, by using the most recently pre-loaded ad.

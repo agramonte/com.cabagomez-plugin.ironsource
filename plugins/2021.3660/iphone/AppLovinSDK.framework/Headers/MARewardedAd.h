@@ -7,9 +7,10 @@
 //
 
 #import <AppLovinSDK/ALSdk.h>
+#import <AppLovinSDK/MAAdRequestDelegate.h>
 #import <AppLovinSDK/MAAdRevenueDelegate.h>
-#import <AppLovinSDK/MARewardedAdDelegate.h>
 #import <AppLovinSDK/MAAdReviewDelegate.h>
+#import <AppLovinSDK/MARewardedAdDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -53,12 +54,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<MAAdRevenueDelegate> revenueDelegate;
 
 /**
+ * A delegate that will be notified about ad request events.
+ */
+@property (nonatomic, weak, nullable) id<MAAdRequestDelegate> requestDelegate;
+
+/**
  * A delegate that will be notified about Ad Review events.
  */
 @property (nonatomic, weak, nullable) id<MAAdReviewDelegate> adReviewDelegate;
 
 /**
- * Load the current rewarded ad. Use @code [MARewardedAd delegate] @endcode to assign a delegate that should be notified about ad load state.
+ * Load the current rewarded ad. Use @code -[MARewardedAd delegate] @endcode to assign a delegate that should be notified about ad load state.
  *
  * @see <a href="https://dash.applovin.com/documentation/mediation/ios/getting-started/rewarded-ads#loading-a-rewarded-ad">MAX Integration Guide ⇒ iOS ⇒ Rewarded Ads ⇒ Loading a Rewarded Ad</a>
  */
@@ -67,8 +73,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Show the loaded rewarded ad.
  * <ul>
- * <li>Use @code [MARewardedAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
- * <li>Use @code [MARewardedAd ready] @endcode to check if an ad was successfully loaded.</li>
+ * <li>Use @code -[MARewardedAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
+ * <li>Use @code -[MARewardedAd ready] @endcode to check if an ad was successfully loaded.</li>
  * </ul>
  *
  * @see <a href="https://dash.applovin.com/documentation/mediation/ios/getting-started/rewarded-ads#showing-a-rewarded-ad">MAX Integration Guide ⇒ iOS ⇒ Rewarded Ads ⇒ Showing a Rewarded Ad</a>
@@ -78,8 +84,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Show the loaded rewarded ad for a given placement to tie ad events to.
  * <ul>
- * <li>Use @code [MARewardedAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
- * <li>Use @code [MARewardedAd ready] @endcode to check if an ad was successfully loaded.</li>
+ * <li>Use @code -[MARewardedAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
+ * <li>Use @code -[MARewardedAd ready] @endcode to check if an ad was successfully loaded.</li>
  * </ul>
  *
  * @see <a href="https://dash.applovin.com/documentation/mediation/ios/getting-started/rewarded-ads#showing-a-rewarded-ad">MAX Integration Guide ⇒ iOS ⇒ Rewarded Ads ⇒ Showing a Rewarded Ad</a>
@@ -91,8 +97,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Show the loaded rewarded ad for a given placement and custom data to tie ad events to.
  * <ul>
- * <li>Use @code [MARewardedAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
- * <li>Use @code [MARewardedAd ready] @endcode to check if an ad was successfully loaded.</li>
+ * <li>Use @code -[MARewardedAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
+ * <li>Use @code -[MARewardedAd ready] @endcode to check if an ad was successfully loaded.</li>
  * </ul>
  *
  * @see <a href="https://dash.applovin.com/documentation/mediation/ios/getting-started/rewarded-ads#showing-a-rewarded-ad">MAX Integration Guide ⇒ iOS ⇒ Rewarded Ads ⇒ Showing a Rewarded Ad</a>
@@ -105,8 +111,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Show the loaded rewarded ad for a given placement and custom data to tie ad events to, and a view controller to present the ad from.
  * <ul>
- * <li>Use @code [MARewardedAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
- * <li>Use @code [MARewardedAd ready] @endcode to check if an ad was successfully loaded.</li>
+ * <li>Use @code -[MARewardedAd delegate] @endcode to assign a delegate that should be notified about display events.</li>
+ * <li>Use @code -[MARewardedAd ready] @endcode to check if an ad was successfully loaded.</li>
  * </ul>
  *
  * @see <a href="https://dash.applovin.com/documentation/mediation/ios/getting-started/rewarded-ads#showing-a-rewarded-ad">MAX Integration Guide ⇒ iOS ⇒ Rewarded Ads ⇒ Showing a Rewarded Ad</a>

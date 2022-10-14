@@ -44,7 +44,15 @@ local metadata =
 			'UnityAds',
 			-- Chartboost
 			'ISChartboostAdapter',
-			'Chartboost',
+			'ChartboostSDK',
+			-- Pangle
+			'BUAdSDK',
+			'BUFoundation',
+			'BURelyAdSDK',
+			'BURelyFoundation_Global',
+			'BUVAAuxiliary',
+			'PAGAdSDK',
+			'ISPangleAdapter',
 			-- Other libraries
 			"AdSupport",
 			"AudioToolbox",

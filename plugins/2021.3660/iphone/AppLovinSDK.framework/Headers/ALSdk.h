@@ -125,6 +125,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)showMediationDebugger;
 
+/**
+ * Present the mediation debugger UI.
+ * This debugger tool provides the status of your integration for each third-party ad network.
+ *
+ * @see <a href="https://dash.applovin.com/documentation/mediation/ios/testing-networks/mediation-debugger">MAX Integration Guide ⇒ iOS ⇒ Testing Networks ⇒ Mediation Debugger</a>
+ *
+ * @param amazonAdSizes A map of the MAX Ad Unit ID to Amazon Publisher Services' @c DTBAdSize.
+ */
+- (void)showMediationDebuggerWithAmazonAdSize:(nullable NSDictionary<NSString *, NSArray/*DTBAdSize*/ *> *)amazonAdSizes;
+
 #pragma mark - SDK Initialization
 
 /**

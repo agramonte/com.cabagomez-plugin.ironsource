@@ -100,6 +100,17 @@ typedef void (^MANativeAdBuilderBlock) (MANativeAdBuilder *builder);
  * The native ad main image (cover image). May or may not be a locally cached file:// resource file.
  *
  * Please make sure you continue to render your native ad using @c MANativeAdLoader so impression tracking is not affected.
+ *
+ * Supported adapter versions:
+ *
+ * BidMachine  v1.9.4.1.1
+ * Google Ad Manager  v9.6.0.1
+ * Google AdMob  v9.6.0.2
+ * Mintegral  v7.1.7.0.2
+ * myTarget  v5.15.2.1
+ * Pangle  v4.5.2.4.1
+ * Smaato  v21.7.6.1
+ * VerizonAds  v2.0.0.4
  */
 @property (nonatomic, strong, readonly, nullable) MANativeAdImage *mainImage;
 
@@ -107,6 +118,11 @@ typedef void (^MANativeAdBuilderBlock) (MANativeAdBuilder *builder);
  * The aspect ratio for the media view if provided by the network. Otherwise returns 0.0f.
  */
 @property (nonatomic, assign, readonly) CGFloat mediaContentAspectRatio;
+
+/**
+ * Whether or not the ad is expired.
+ */
+@property (nonatomic, assign, readonly, getter=isExpired) BOOL expired;
 
 /**
  * For internal use only.

@@ -326,86 +326,92 @@ SKAdNetworkItems = {
 ```
 
 Current versions for android
---------------- AdColony --------------  
+--------------- AdColony       
 Adapter 4.3.12   
---------------- Applovin --------------    
+--------------- Applovin         
 Adapter 4.3.32    
 SDK Version - 11.4.2   
---------------- Google (AdMob and Ad Manager) --------------   
+--------------- Google (AdMob and Ad Manager)        
 Adapter 4.3.28    
 SDK Version - 20.6.0      
---------------- IronSource --------------   
+--------------- IronSource        
 Adapter 7.2.3.1  
 SDK Version - 5.116  
---------------- Meta --------------   
+--------------- Meta        
 Adapter 4.3.36   
 SDK Version - 6.11.0     
---------------- Tapjoy --------------    
+--------------- Tapjoy         
 Adapter 4.1.20    
 SDK Version - 12.9.1   
---------------- Unity --------------    
+--------------- Unity         
 Adapter 4.3.21     
---------------- Vungle --------------   
+--------------- Vungle        
 Adapter 4.3.17   
 SDK Version - 6.11.0   
---------------- Tappx --------------    
+--------------- Tappx         
 Adapter 3.2.4   
 
 Current versions for Amazon   
---------------- AdColony --------------  
+--------------- AdColony       
 Adapter 4.3.12   
---------------- Chartboost --------------    
+--------------- Chartboost         
 Adapter 4.3.8    
 SDK Version - 8.3.1  
---------------- Google (AdMob and Ad Manager) --------------   
+--------------- Google (AdMob and Ad Manager)        
 Adapter 4.3.28    
 SDK Version - 20.6.0    
---------------- InMobi --------------   
+--------------- InMobi        
 Adapter 4.3.14   
 SDK Version - 10.0.5    
---------------- IronSource --------------   
+--------------- IronSource        
 Adapter 7.2.3.1  
 SDK Version - 5.116  
---------------- Meta --------------   
+--------------- Meta        
 Adapter 4.3.36   
 SDK Version - 6.11.0   
---------------- Pangle --------------    
+--------------- Pangle         
 Adapter 4.3.14       
 SDK Version - 4.5.0.4     
---------------- Tapjoy --------------    
+--------------- Tapjoy         
 Adapter 4.1.20    
 SDK Version - 12.9.1     
---------------- Vungle --------------   
+--------------- Vungle        
 Adapter 4.3.17   
 SDK Version - 6.11.0   
---------------- Tappx --------------    
+--------------- Tappx         
 Adapter 3.2.4  
 
-Current version for iOS
---------------- AdColony --------------   
-SDK - Version 4.8.0.0   
-Adapter - Version 4.3.13   
---------------- AppLovin --------------
-SDK - Version 11.4.3   
-Adapter - Version 4.3.33   
---------------- Google (AdMob and Ad Manager) --------------   
-SDK - Version afma-sdk-i-v9.7.0   
-Adapter - Version 4.3.33   
---------------- IronSource --------------   
-SDK - Version 5.103  
-Adapter - Version 7.2.3.1   
---------------- Meta --------------   
-SDK - Version 6.11.1   
-Adapter - Version 4.3.36   
---------------- Tapjoy --------------   
-SDK - Version 12.9.1   
-Adapter - Version 4.1.19   
---------------- UnityAds --------------   
-SDK - Version 4.2.1   
-Adapter - Version 4.3.22   
---------------- Vungle --------------   
-SDK - Version 6.11.0   
-Adapter - Version 4.3.20  
+Current version for iOS    
+AdColony     
+     SDK - Version 4.9.0.0     
+     Adapter - Version 4.3.15     
+AppLovin     
+     SDK - Version 11.5.0     
+     Adapter - Version 4.3.35     
+Chartboost    
+     SDK - Version 9.0.0     
+     Adapter - Version 4.3.11     
+Google (AdMob and Ad Manager)     
+     SDK - Version afma-sdk-i-v9.11.0     
+     Adapter - Version 4.3.36     
+IronSource     
+     SDK - Version 5.105     
+     Adapter - Version 7.2.5     
+Meta     
+     SDK - Version 6.11.2     
+     Adapter - Version 4.3.37     
+Pangle     
+     SDK - Version 4.5.2.3     
+     Adapter - Version 4.3.16     
+Tapjoy     
+     SDK - Version 12.10.0     
+     Adapter - Version 4.1.21     
+UnityAds     
+     SDK - Version 4.4.1     
+     Adapter - Version 4.3.24     
+Vungle     
+     SDK - Version 6.12.0     
+     Adapter - Version 4.3.22     
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

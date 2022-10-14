@@ -75,7 +75,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Loads <em>and</em> displays an ad into the view. This method returns immediately.
  *
- * <b>Note:</b> To load the ad but not display it, use @code +[ALSdk shared] @endcode ⇒ @code [ALSDK adService] @endcode
+ * <b>Note:</b> To load the ad but not display it, use @code +[ALSdk shared] @endcode ⇒ @code -[ALSDK adService] @endcode
  *              ⇒ @code -[ALAdService loadNextAd:andNotify:] @endcode, then @code -[ALAdView render:] @endcode to render it.
  */
 - (void)loadNextAd;
@@ -94,7 +94,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Initializes the ad view with a given size.
  *
- * @param size @c ALAdSize that represents the size of this ad. For example, @code [ALAdSize banner] @endcode.
+ * @param size @c ALAdSize that represents the size of this ad. For example, @code +[ALAdSize banner] @endcode.
  *
  * @return A new instance of @c ALAdView.
  */
@@ -103,7 +103,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Initializes the ad view for a given size and zone.
  *
- * @param size           @c ALAdSize that represents the size of this ad. For example, @code [ALAdSize banner] @endcode.
+ * @param size           @c ALAdSize that represents the size of this ad. For example, @code +[ALAdSize banner] @endcode.
  * @param zoneIdentifier Identifier for the zone this @c ALAdView should load ads for.
  *
  * @return A new instance of @c ALAdView.
@@ -114,7 +114,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Initializes the ad view with a given SDK and size.
  *
  * @param sdk  Instance of @c ALSdk to use.
- * @param size @c ALAdSize that represents the size of this ad. For example, @code [ALAdSize banner] @endcode.
+ * @param size @c ALAdSize that represents the size of this ad. For example, @code +[ALAdSize banner] @endcode.
  *
  * @return A new instance of @c ALAdView.
  */
@@ -124,7 +124,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Initializes the ad view with a given SDK, size, and zone.
  *
  * @param sdk            Instance of @c ALSdk to use.
- * @param size           @c ALAdSize that represents the size of this ad. For example, @code [ALAdSize banner] @endcode.
+ * @param size           @c ALAdSize that represents the size of this ad. For example, @code +[ALAdSize banner] @endcode.
  * @param zoneIdentifier Identifier for the zone that this @c ALAdView should load ads for.
  *
  * @return A new instance of @c ALAdView.
@@ -135,7 +135,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Initializes the ad view with a given frame, ad size, and SDK instance.
  *
  * @param frame  Describes the position and dimensions of the ad.
- * @param size   @c ALAdSize that represents the size of this ad. For example, @code [ALAdSize banner] @endcode.
+ * @param size   @c ALAdSize that represents the size of this ad. For example, @code +[ALAdSize banner] @endcode.
  * @param sdk    Instance of @c ALSdk to use.
  *
  * @return A new instance of @c ALAdView.

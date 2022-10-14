@@ -39,6 +39,7 @@
 #import <AppLovinSDK/MAAdapterInitializationParameters.h>
 #import <AppLovinSDK/MAAdapterError.h>
 #import <AppLovinSDK/MAInterstitialAdapter.h>
+#import <AppLovinSDK/MAAppOpenAdapter.h>
 #import <AppLovinSDK/MANativeAdAdapter.h>
 #import <AppLovinSDK/MARewardedAdapter.h>
 #import <AppLovinSDK/MARewardedInterstitialAdapter.h>
@@ -46,6 +47,7 @@
 #import <AppLovinSDK/MAAdapterDelegate.h>
 #import <AppLovinSDK/MAAdViewAdapterDelegate.h>
 #import <AppLovinSDK/MAInterstitialAdapterDelegate.h>
+#import <AppLovinSDK/MAAppOpenAdapterDelegate.h> 
 #import <AppLovinSDK/MANativeAdAdapterDelegate.h>
 #import <AppLovinSDK/MARewardedAdapterDelegate.h>
 #import <AppLovinSDK/MARewardedInterstitialAdapterDelegate.h>
@@ -59,12 +61,14 @@
 #import <AppLovinSDK/MAAd.h>
 #import <AppLovinSDK/MAAdDelegate.h>
 #import <AppLovinSDK/MAAdFormat.h>
+#import <AppLovinSDK/MAAdRequestDelegate.h>
 #import <AppLovinSDK/MAAdRevenueDelegate.h>
 #import <AppLovinSDK/MAAdReviewDelegate.h>
 #import <AppLovinSDK/MAAdView.h>
 #import <AppLovinSDK/MAAdViewAdDelegate.h>
 #import <AppLovinSDK/MAAdWaterfallInfo.h>
 #import <AppLovinSDK/MAInterstitialAd.h>
+#import <AppLovinSDK/MAAppOpenAd.h>
 #import <AppLovinSDK/MANetworkResponseInfo.h>
 #import <AppLovinSDK/MANativeAdDelegate.h>
 #import <AppLovinSDK/MANativeAdLoader.h>
