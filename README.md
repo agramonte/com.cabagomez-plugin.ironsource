@@ -1,6 +1,8 @@
 # com.cabagomez-plugin.ironsource
 Solar2d Ironsource Plugin.
 
+-- The iOS version now only supports ARM64. This means that it only supports iOS 11 and after.
+
 -- Tappx banner and interstitial are supported. If you use it and have not registered please use my affiliate link:
 https://dashboard.tappx.com/?h=a386595d4c1005fd21b82c8a44d45766.  
 
@@ -14,10 +16,24 @@ https://dashboard.tappx.com/?h=a386595d4c1005fd21b82c8a44d45766.
             publisherId = "com.cabagomez"
         },
 ```   
-2. Plugin supports Android 16 and above. Add to your build settings file:
-```
-minSdkVersion = "16",
-```
+2. Plugin supports Android 16 and iOS 11 and above. Add to your build settings file:   
+For android:   
+```  
+android =
+    {
+        minSdkVersion = "16",
+    }
+```   
+For iOS:   
+```   
+iphone =
+	{
+        plist =
+		{
+            MinimumOSVersion = "11",
+        }
+    }
+```   
 3. Refrence the plugin:
 ```
 local ironsource = require("plugin.ironsource")
@@ -37,7 +53,8 @@ ironsource.init(
             hasUserConsent=false, -- Optional. Targeted ads. Defaults to false.
             ccpaDoNotSell=false, -- Optional. False = Sell the data. True = do not sell. Default is false.
             isAutoLoad = true, -- Optional. True = Banner and Interstitial will autoload. Default is true.
-            consentView = false -- Optional. True = send consent view events. iOS only. Default is false.
+            consentView = false, -- Optional. True = send consent view events. iOS only. Default is false.
+            attStatus = "authorized" -- Optional. Sending "authorized" will net Facebook know that tracking is enabled. Otherwise it will set it to not enabled.
         } -- Table with options.
     )
 ```
@@ -389,8 +406,8 @@ AppLovin
      SDK - Version 11.5.0     
      Adapter - Version 4.3.35     
 Chartboost    
-     SDK - Version 9.0.0     
-     Adapter - Version 4.3.11     
+     SDK - Version 9.1.0     
+     Adapter - Version 4.3.16     
 Google (AdMob and Ad Manager)     
      SDK - Version afma-sdk-i-v9.11.0     
      Adapter - Version 4.3.36     
@@ -411,7 +428,9 @@ UnityAds
      Adapter - Version 4.3.24     
 Vungle     
      SDK - Version 6.12.0     
-     Adapter - Version 4.3.22     
+     Adapter - Version 4.3.22    
+Pangle    
+     No version displayed but working.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

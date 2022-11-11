@@ -68,7 +68,8 @@ local metadata =
 			"QuartzCore",
 			"Security",
 			"StoreKit",
-			"SystemConfiguration"
+			"SystemConfiguration",
+			"NotificationCenter"
 		},
 		usesSwift = true
 	},
