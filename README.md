@@ -343,30 +343,34 @@ SKAdNetworkItems = {
 ```
 
 Current versions for android
---------------- AdColony       
-Adapter 4.3.12   
---------------- Applovin         
-Adapter 4.3.32    
-SDK Version - 11.4.2   
---------------- Google (AdMob and Ad Manager)        
-Adapter 4.3.28    
-SDK Version - 20.6.0      
---------------- IronSource        
-Adapter 7.2.3.1  
-SDK Version - 5.116  
---------------- Meta        
-Adapter 4.3.36   
-SDK Version - 6.11.0     
---------------- Tapjoy         
-Adapter 4.1.20    
-SDK Version - 12.9.1   
---------------- Unity         
-Adapter 4.3.21     
---------------- Vungle        
-Adapter 4.3.17   
-SDK Version - 6.11.0   
---------------- Tappx         
-Adapter 3.2.4   
+--------------- AdColony --------------    
+Adapter 4.3.13      
+--------------- AppLovin --------------    
+Adapter 4.3.34      
+SDK Version - 11.5.0      
+--------------- Chartboost --------------    
+Adapter 4.3.10      
+SDK Version - 9.1.1   
+--------------- Google (AdMob and Ad Manager) --------------    
+Adapter 4.3.31      
+SDK Version - 21.2.0   
+--------------- InMobi --------------    
+Adapter - MISSING   
+--------------- IronSource --------------    
+Adapter 7.2.5 - VERIFIED
+SDK Version - 5.119
+--------------- Pangle --------------    
+Adapter 4.3.15      
+SDK Version - 4.7.0.6      
+--------------- Tapjoy --------------    
+Adapter 4.1.22      
+SDK Version - 12.11.0      
+--------------- UnityAds --------------    
+Adapter 4.3.24      
+SDK Version - 4.4.1   
+--------------- Vungle --------------    
+Adapter 4.3.18      
+SDK Version - 6.12.0   
 
 Current versions for Amazon   
 --------------- AdColony       
