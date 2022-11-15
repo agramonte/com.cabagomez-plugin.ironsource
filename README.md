@@ -342,7 +342,7 @@ SKAdNetworkItems = {
             },
 ```
 
-Current versions for android
+Current versions for android:    
 --------------- AdColony --------------    
 Adapter 4.3.13      
 --------------- AppLovin --------------    
@@ -357,8 +357,8 @@ SDK Version - 21.2.0
 --------------- InMobi --------------    
 Adapter - MISSING   
 --------------- IronSource --------------    
-Adapter 7.2.5 - VERIFIED
-SDK Version - 5.119
+Adapter 7.2.5 - VERIFIED    
+SDK Version - 5.119    
 --------------- Pangle --------------    
 Adapter 4.3.15      
 SDK Version - 4.7.0.6      
